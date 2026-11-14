@@ -1,0 +1,4 @@
+﻿FechaHora;Exitosa;Estado;MotorBD;VersionMotor;DriverJDBC;URL;Detalle
+2026-11-13 21:41:29;SI;Conexión exitosa;SQLite;3.39;SQLite JDBC;jdbc:sqlite:inventario.db;SQLite validado
+2026-11-13 21:41:29;NO;Fallo de conexión (SQLException);SQLite;;org.sqlite.JDBC;jdbc:sqlite:carpeta_inexistente/inventario.db;Error técnico capturado
+2026-11-13 21:41:29;NO;Fallo de conexión (ClassNotFoundException);MySQL;;com.mysql.cj.jdbc.Driver;jdbc:mysql://localhost:3306/inventario;Driver no encontrado: com.mysql.cj.jdbc.Driver
