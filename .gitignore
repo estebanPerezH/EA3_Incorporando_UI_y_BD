@@ -10,9 +10,10 @@ target/
 *.sqlite
 *.sqlite3
 
-# Entregables empaquetados e informes locales
+# Entregables empaquetados e informes locales (excepto informe PDF oficial)
 *.zip
 *.pdf
+!EA3_Incorporando_UI_y_BD_PerezJhoan.pdf
 *.docx
 
 # Metadatos del sistema operativo y editores

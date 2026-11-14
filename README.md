@@ -17,16 +17,17 @@ EA3_Incorporando_UI_y_BD/
 │   └── registro_pruebas_conexion.csv
 ├── lib/
 │   └── sqlite-jdbc-3.39.4.1.jar
-└── src/
-    └── proyecto/edu/co/iud/
-        ├── modelo/
-        │   └── ResultadoConexion.java
-        ├── servicio/
-        │   ├── IConexionBDable.java
-        │   └── impl/
-        │       └── GestorConexionBD.java
-        └── vista/
-            └── ConexionTester.java
+├── src/
+│   └── proyecto/edu/co/iud/
+│       ├── modelo/
+│       │   └── ResultadoConexion.java
+│       ├── servicio/
+│       │   ├── IConexionBDable.java
+│       │   └── impl/
+│       │       └── GestorConexionBD.java
+│       └── vista/
+│           └── ConexionTester.java
+└── EA3_Incorporando_UI_y_BD_PerezJhoan.pdf
 ```
 
 ## Requisitos
