@@ -58,9 +58,6 @@ public class GestorConexionBD implements IConexionBDable {
             String nombreDriver = metaDatos.getDriverName();
 
             return new ResultadoConexion(
-                    true,
-                    "Conexión exitosa",
-                    "La comunicación con la base de datos se estableció correctamente.",
                     nombreMotor,
                     versionMotor,
                     nombreDriver,

@@ -7,9 +7,6 @@ import java.time.format.DateTimeFormatter;
  * Representa el resultado inmutable de una prueba de conexión JDBC.
  */
 public record ResultadoConexion(
-        boolean exitosa,
-        String estado,
-        String detalle,
         String motor,
         String versionMotor,
         String driverUtilizado,
@@ -25,9 +22,10 @@ public record ResultadoConexion(
      */
     public String formatearResumen() {
         StringBuilder sb = new StringBuilder();
-        sb.append(estado).append(System.lineSeparator());
+        sb.append("Conexión exitosa").append(System.lineSeparator());
         sb.append("--------------------------------------------------").append(System.lineSeparator());
-        sb.append("Detalle       : ").append(detalle).append(System.lineSeparator());
+        sb.append("Detalle       : La comunicación con la base de datos se estableció correctamente.")
+                .append(System.lineSeparator());
         sb.append("URL           : ").append(urlEvaluada).append(System.lineSeparator());
         if (motor != null && !motor.isBlank()) {
             sb.append("Motor BD      : ").append(motor);

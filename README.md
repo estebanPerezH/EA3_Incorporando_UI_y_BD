@@ -25,8 +25,6 @@ EA3_Incorporando_UI_y_BD/
         │   ├── IConexionBDable.java
         │   └── impl/
         │       └── GestorConexionBD.java
-        ├── util/
-        │   └── CsvRegistroExporter.java
         └── vista/
             └── ConexionTester.java
 ```
